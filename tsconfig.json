@@ -1,17 +1,17 @@
 {
   "compilerOptions": {
     /* Language and Environment */
-    "target": "ES2020",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
-    "module": "ES2020",                                /* Specify what module code is generated. */
+    "target": "ES2020" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+    "module": "ES2020" /* Specify what module code is generated. */,
     "outDir": "./dist",
     "rootDir": "./src",
-    "declaration": true,                                 /* Generates corresponding '.d.ts' file. */
+    "declaration": true /* Generates corresponding '.d.ts' file. */,
     "declarationDir": "dist/types",
     "strict": true,
-    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */,
     "moduleResolution": "Node",
-    "skipLibCheck": true,                                /* Skip type checking all .d.ts files. */
-    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */,
+    "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
     "sourceMap": true
   },
   "include": ["**/*.js", "**/*.ts"],

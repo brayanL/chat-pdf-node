@@ -9,7 +9,8 @@
     "start": "node ./dist/index.js",
     "dev": "tsx ./src/index.ts",
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "format": "npx prettier . --write"
   },
   "repository": {
     "type": "git",
@@ -22,13 +23,18 @@
   },
   "homepage": "https://github.com/brayanL/chat-pdf-node#readme",
   "devDependencies": {
+    "@eslint/js": "^9.15.0",
     "@types/jest": "^29.5.14",
     "@types/node": "^22.9.3",
+    "eslint": "^9.15.0",
+    "globals": "^15.12.0",
     "jest": "^29.7.0",
+    "prettier": "3.4.1",
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
     "tsx": "^4.19.2",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.16.0"
   },
   "dependencies": {
     "openai": "^4.73.1",
