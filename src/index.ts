@@ -1,3 +1,5 @@
-// eslint-disable-next-line @typescript-eslint/no-require-imports
-const ChatWithPdf = require('./chat-with-pdf');
+import { ChatWithPdf } from './chat-with-pdf';
+
+export { ChatWithPdf };
+
 module.exports = { ChatWithPdf };
