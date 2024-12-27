@@ -1,5 +1,1 @@
-import { ChatWithPdf } from './chat-with-pdf';
-
-export { ChatWithPdf };
-
-module.exports = { ChatWithPdf };
+export { ChatWithPdf } from './chat-with-pdf';
